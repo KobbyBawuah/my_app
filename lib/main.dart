@@ -8,7 +8,7 @@ import 'my_widget.dart';
 Future<void> main() async {
   await SentryFlutter.init(
     (options) {
-      options.dsn = 'https://abd7fab1ae084afd8e324d97c755883c@o1145044.ingest.sentry.io/4504573551378432';
+      options.dsn = 'XXX';
       // Set tracesSampleRate to 1.0 to capture 100% of transactions for performance monitoring.
       // We recommend adjusting this value in production.
       options.tracesSampleRate = 1.0;

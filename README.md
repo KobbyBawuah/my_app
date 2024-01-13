@@ -1,29 +1,29 @@
-# my_app
+# Flutter Sentry demo App
 
-A new Flutter project.
+This is a simple Flutter app created for testing Sentry. 
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+Before running the app, ensure that you have Flutter installed. If not, follow the [official Flutter installation guide](https://flutter.dev/docs/get-started/install).
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   ```bash
+   git clone https://github.com/KobbyBawuah/my_app.git
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Get dependencies:
 
-to pull packages after adding them to the pubspec.yaml:
-flutter pub get
+   ```bash
+    flutter pub get
+   ```
+3. Open lib/main.dart and replace the placeholder with your Sentry DSN:
 
-Simulator:
-open -a Simulator
+   ```bash
+    options.dsn = 'XXX';
+   ```
 
-To run app:
-flutter run  
-
-
-Tutorial:
-https://www.youtube.com/watch?v=f09c-nw15K8
+4. Run the app:
+   ```bash
+    flutter run
+   ```
