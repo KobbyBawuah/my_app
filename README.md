@@ -17,10 +17,17 @@ Before running the app, ensure that you have Flutter installed. If not, follow t
    ```bash
     flutter pub get
    ```
+
 3. Open lib/main.dart and replace the placeholder with your Sentry DSN:
 
    ```bash
     options.dsn = 'XXX';
+   ```
+
+4. Incase a simulator is needed:
+
+    ```bash
+    open -a simulator
    ```
 
 4. Run the app:
